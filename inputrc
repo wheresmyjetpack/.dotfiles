@@ -11,4 +11,4 @@ set mark-symlinked-directories on
 set visible-stats on
 
 # # Flip through autocompletion matches with Shift-Tab.
-"\e[Z": menu-complete
+ "\e[Z": menu-complete
