@@ -8,5 +8,5 @@
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-
+    ~/.inputrc: inputrc
 
