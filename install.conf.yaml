@@ -10,4 +10,4 @@
     ~/.zshrc: zshrc
     ~/.inputrc: inputrc
     ~/.bash_aliases: bash_aliases
-
+    ~/.functions: functions
