@@ -10,22 +10,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-" Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-" Git plugin not hosted on GitHub
-" Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Avoid a name conflict with L9
-" Plugin 'user/L9', {'name': 'newL9'}
-
 " Supertab
 Plugin 'ervandew/supertab'
 
@@ -76,6 +60,8 @@ set noswapfile
 
 au FileType python set ts=4 sts=4 sw=4
 au FileType ruby set ts=2 sts=2 sw=2
+au FileType php set ts=2 sts=2 sw=2
 au FileType html set ts=2 sts=2 sw=2
 au FileType css set ts=2 sts=2 sw=2
-au FileType sh set ts=4 sts=4 sw=4 
+au FileType sh set ts=4 sts=4 sw=4
+au FileType xml set ts=2 sts=2 sw=2
