@@ -23,3 +23,27 @@ alias ld="ls -ld */"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+# Git
+alias gs="git status"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gl="git log"
+alias gb="git branch"
+alias gc="git checkout"
+alias grh="git reset HEAD"
+alias gfu="git fetch upstream"
+alias gmu="git merge upstream/master"
+alias get="git"
+
+# Rails
+# alias rake="rake --silent"
+alias irb="irb --simple-prompt"
+alias rs="rails server"
+alias rc="rails console"
+alias rg="rails generate"
+
+# NCFTP
+alias bm="ncftpbookmarks"
+
+
