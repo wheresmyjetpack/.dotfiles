@@ -25,7 +25,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 # Git
-alias gs="git status"
+alias gstat="git status"
 alias gd="git diff"
 alias gdc="git diff --cached"
 alias gl="git log"
@@ -46,4 +46,8 @@ alias rg="rails generate"
 # NCFTP
 alias bm="ncftpbookmarks"
 
+# IP
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
+# Allow aliases to be sudoed
+alias sudo="sudo "
