@@ -52,11 +52,11 @@ set smarttab
 set expandtab
 set number
 set incsearch
-"set ruler
 set laststatus=2
 set t_Co=256
 set hlsearch
 set noswapfile
+set scrolloff=10
 
 au FileType python set ts=4 sts=4 sw=4
 au FileType ruby set ts=2 sts=2 sw=2
