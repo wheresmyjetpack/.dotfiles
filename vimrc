@@ -54,7 +54,6 @@ set number
 set incsearch
 set laststatus=2
 set t_Co=256
-set hlsearch
 set noswapfile
 set scrolloff=10
 
