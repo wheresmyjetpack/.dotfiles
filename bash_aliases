@@ -35,6 +35,7 @@ alias grh="git reset HEAD"
 alias gfu="git fetch upstream"
 alias gmu="git merge upstream/master"
 alias get="git"
+alias gdt="git diff-tree --no-commit-id --name-only"
 
 # Rails
 # alias rake="rake --silent"
