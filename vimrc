@@ -58,6 +58,7 @@ set noswapfile
 set scrolloff=10
 
 au FileType python set ts=4 sts=4 sw=4
+au FileType javascript set ts=2 sts=2 sw=2
 au FileType ruby set ts=2 sts=2 sw=2
 au FileType php set ts=2 sts=2 sw=2
 au FileType html set ts=2 sts=2 sw=2
