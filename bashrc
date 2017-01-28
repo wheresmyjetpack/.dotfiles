@@ -101,6 +101,9 @@ if [ -f ~/.functions ]; then
     . ~/.functions
 fi
 
+# Prompt
+export PS1="\[\e[34m\]\t \[\e[m\]\[\e[35m\]\u\[\e[m\]\[\e[36m\]\w\[\e[m\]\[\e[33m\]\$(__git_ps1)\[\e[m\] "
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 

@@ -1,12 +1,17 @@
 # Create a new directory and enter it
-function mk() {
-          mkdir -p "$@" && cd "$@"
-}
-
 function zombiehunt() {
-        ps alx | awk '{ print $4, $10 }' | grep -i 's'
+  ps alx | awk 'NR == 1 || /\s[zZ]\s/'
 }
 
-function lipsum() {
-        curl -silent http://lipsum.com | grep '<p>"Lorem' | sed -r -e 's/"//g' -e 's|<[a-zA-Z0-9\/]+>||g'
+function cd() {
+  builtin cd $1
+
+  project_dir=$(pwd);
+  ruby_bin=$(which ruby)
+
+  if [[ -e $project_dir/.ruby-version ]]; then
+    load_ruby=$(<"$project_dir"/.ruby-version);
+    echo "[!] RVM: using ruby version $load_ruby";
+    rvm use "$load_ruby";
+  fi
 }
