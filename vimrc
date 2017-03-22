@@ -51,6 +51,9 @@ Plugin 'kchmck/vim-coffee-script'
 " JSX syntax
 Plugin 'mxw/vim-jsx'
 
+" delimitMate
+Plugin 'Raimondi/delimitMate'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -71,6 +74,7 @@ set laststatus=2
 set t_Co=256
 set noswapfile
 set scrolloff=10
+set term=screen-256color
 
 let python_highlight_all = 1
 let python_highlight_indent_errors = 0

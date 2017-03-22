@@ -7,7 +7,7 @@
     ~/.bash_logout: bash_logout
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
-    ~/.zshrc: zshrc
     ~/.inputrc: inputrc
     ~/.bash_aliases: bash_aliases
     ~/.functions: functions
+    ~/.tmux.conf: tmux.conf

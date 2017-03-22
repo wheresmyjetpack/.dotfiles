@@ -39,6 +39,7 @@ alias gmu="git merge upstream/master"
 alias gdt="git diff --no-commit-id --name-only"
 alias gri="git rebase -i"
 alias git-changes="git status -s | sed 's/^...//'"
+alias swag-yolo="git push -f origin master"
 
 # Rails
 # alias rake="rake --silent"
