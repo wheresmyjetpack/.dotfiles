@@ -21,7 +21,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'edkolev/tmuxline.vim'
 
 " Bufferline
-"Plugin 'bling/vim-bufferline'
+Plugin 'bling/vim-bufferline'
 
 " JS syntax
 Plugin 'jelera/vim-javascript-syntax'
@@ -56,8 +56,11 @@ Plugin 'Raimondi/delimitMate'
 " elixir syntax
 Plugin 'elixir-lang/vim-elixir'
 
-"
+" Markdown Plugin
 Plugin 'gabrielelana/vim-markdown'
+
+" Delete all buffers except current
+Plugin 'schickling/vim-bufonly'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -81,7 +84,6 @@ set noswapfile
 set scrolloff=10
 set term=screen-256color
 
-let g:airline#extensions#tabline#enabled = 1
 let python_highlight_all = 1
 let python_highlight_indent_errors = 0
 
@@ -106,8 +108,9 @@ map _ :m .-2<enter>
 :command! Q q
 "
 " Airline configuration
+let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 1
-let g:airline_theme='badwolf'
+let g:airline_theme='luna'
 
 " Tmuxline configuration
 let g:tmuxline_powerline_separators = 0
@@ -119,4 +122,4 @@ let g:tmuxline_separators = {
     \ 'space' : ' '}
 
 " Bufferline configuration
-"let g:bufferline_echo = 0
+let g:bufferline_echo = 0
