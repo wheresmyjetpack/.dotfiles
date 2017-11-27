@@ -48,6 +48,11 @@ alias rs="bundle exec rails server"
 alias rc="bundle exec rails console"
 alias rg="bundle exec rails generate"
 
+# Hanami
+alias hc="bundle exec hanami console"
+alias hg="bundle exec hanami generate"
+alias hs="bundle exec hanami server"
+
 # For shitty kwin crashes
 alias kwin-restart="DISPLAY=:0 kwin --replace"
 

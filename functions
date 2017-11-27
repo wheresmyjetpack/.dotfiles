@@ -2,16 +2,3 @@
 function zombiehunt() {
   ps alx | awk 'NR == 1 || /\s[zZ]\s/'
 }
-
-function cd() {
-  builtin cd $1
-
-  project_dir=$(pwd);
-  ruby_bin=$(which ruby)
-
-  if [[ -e $project_dir/.ruby-version ]]; then
-    load_ruby=$(<"$project_dir"/.ruby-version);
-    echo "[!] RVM: using ruby version $load_ruby";
-    rvm use "$load_ruby";
-  fi
-}
